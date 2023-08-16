@@ -23,5 +23,15 @@ namespace 0000000000000.Pages
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         }
+
+        public void OnDeveloper1()
+        {
+            return string.Empty;
+        }
+
+        public void OnDeveloper2()
+        {
+            return string.Empty;
+        }
     }
 }
